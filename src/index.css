@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  background: #0d0a14;
+  color: #e9e4f5;
+}
+
+@keyframes page-in {
+  from { opacity: 0; transform: scale(.98); }
+}
