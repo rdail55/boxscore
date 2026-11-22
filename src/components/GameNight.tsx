@@ -49,6 +49,35 @@ const SECTIONS: { id: string; title: string; options: Option[] }[] = [
   },
 ]
 
+// Weight tiers (BGG complexity, 1-5). Each suggests 3 games: one from the
+// low, middle and high third of its range.
+const WEIGHT_TIERS = [
+  { id: 'light', label: 'Light', min: 0, max: 1.75 },
+  { id: 'medium-light', label: 'Medium Light', min: 1.5, max: 2.25 },
+  { id: 'medium', label: 'Medium', min: 1.75, max: 2.5 },
+  { id: 'medium-heavy', label: 'Medium Heavy', min: 2.4, max: 3.5 },
+  { id: 'heavy', label: 'Heavy', min: 3.0, max: 5 },
+]
+
+function suggestByWeight(games: Game[], min: number, max: number) {
+  const fits = games.filter((g) => g.info.weight != null && g.info.weight >= min && g.info.weight <= max)
+  // "Light" has no real floor, so split its range from the lightest game present.
+  const lo = Math.max(min, Math.min(...fits.map((g) => g.info.weight!)))
+  const third = (max - lo) / 3
+  const picked: Game[] = []
+  for (let i = 0; i < 3; i++) {
+    const band = fits.filter((g) => !picked.includes(g) && g.info.weight! >= lo + third * i && g.info.weight! <= lo + third * (i + 1))
+    // Empty band: fall back to the unpicked game closest to the band's centre.
+    const pool = band.length ? band : fits.filter((g) => !picked.includes(g))
+    if (!pool.length) break
+    const centre = lo + third * (i + 0.5)
+    pool.sort((a, b) => Math.abs(a.info.weight! - centre) - Math.abs(b.info.weight! - centre))
+    const pick = band.length ? band[Math.floor(Math.random() * band.length)] : pool[0]
+    picked.push(pick)
+  }
+  return picked.sort((a, b) => a.info.weight! - b.info.weight!)
+}
+
 type Picks = Record<string, string | undefined>
 
 const matches = (g: Game, picks: Picks) =>
@@ -67,6 +96,13 @@ export default function GameNight({ pulledId, onPull }: Omit<ShelfProps, 'base'>
   useEffect(() => () => timers.current.forEach(clearTimeout), [])
 
   const shown = games.filter((g) => matches(g, picks))
+  const [tier, setTier] = useState<string>()
+  const [suggested, setSuggested] = useState<Game[]>([])
+  const pickTier = (id: string) => {
+    const t = WEIGHT_TIERS.find((w) => w.id === id)!
+    setTier(id)
+    setSuggested(suggestByWeight(shown, t.min, t.max))
+  }
   const base = `/u/${username}`
   const anyPicked = Object.values(picks).some(Boolean)
 
@@ -134,6 +170,48 @@ export default function GameNight({ pulledId, onPull }: Omit<ShelfProps, 'base'>
           </section>
         ))}
       </div>
+
+      <section className="mt-6">
+        <h2 className="mb-2 text-sm font-semibold text-white/70">How heavy? <span className="font-normal text-white/40">Suggests 3 games: lighter, middle and heavier in that range</span></h2>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
+          {WEIGHT_TIERS.map((w) => (
+            <button
+              key={w.id}
+              onClick={() => pickTier(w.id)}
+              aria-pressed={tier === w.id}
+              className={`rounded-xl border p-4 text-left transition ${
+                tier === w.id ? 'border-purple-400 bg-purple-600/30' : 'border-white/10 bg-white/5 hover:bg-white/10'
+              }`}
+            >
+              <p className="text-lg font-semibold">{w.label}</p>
+              <p className="text-xs text-white/50">{w.min ? `${w.min.toFixed(2)}–${w.max === 5 ? '5' : w.max.toFixed(2)}` : `Under ${w.max}`} weight</p>
+            </button>
+          ))}
+        </div>
+        {tier && (
+          <div className="mt-4">
+            {suggested.length ? (
+              <div className="grid gap-3 sm:grid-cols-3">
+                {suggested.map((g) => (
+                  <a key={g.bggId} href={`${base}/game/${g.bggId}`} className="flex items-center gap-3 rounded-xl bg-white/5 p-3 hover:bg-white/10">
+                    {g.coverUrl && <img src={g.thumbUrl ?? g.coverUrl} alt="" className="size-14 rounded object-cover" />}
+                    <span>
+                      <span className="block font-medium">{g.title}</span>
+                      <span className="text-xs text-white/50">Weight {g.info.weight!.toFixed(2)}</span>
+                    </span>
+                  </a>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm text-white/40">No games on this shelf in that weight range{Object.values(picks).some(Boolean) ? ' with your other choices' : ''}.</p>
+            )}
+            {suggested.length > 0 && (
+              <button onClick={() => pickTier(tier)} className="mt-2 text-sm text-purple-300 hover:text-purple-200">↻ Suggest 3 others</button>
+            )}
+            {suggested.length > 0 && suggested.length < 3 && <p className="mt-1 text-xs text-white/40">Only {suggested.length} fit.</p>}
+          </div>
+        )}
+      </section>
 
       <div className="sticky top-0 z-10 -mx-4 mt-8 mb-4 flex flex-wrap items-center justify-between gap-3 bg-[#0d0a14]/90 px-4 py-3 backdrop-blur">
         <p className="text-sm text-white/60">
