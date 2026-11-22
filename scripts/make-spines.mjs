@@ -2,6 +2,7 @@
 // Most box fronts carry the title logo in a band along the top edge; rotating
 // that band 90° gives a strip that reads down the spine like a real box side.
 // Usage: node scripts/make-spines.mjs [bggId ...]
+// Also imported by sync-spines.mjs, which spines games added on the site.
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import sharp from 'sharp'
@@ -97,7 +98,7 @@ async function overflowSpine({ src, game, along, across, vertical, spineW }) {
   return { spineW }
 }
 
-async function makeSpine(game) {
+export async function makeSpine(game) {
   const custom = await customSpine(game)
   if (custom) return custom
 
@@ -177,26 +178,35 @@ async function makeSpine(game) {
   return { spineW }
 }
 
-const only = new Set(process.argv.slice(2).map(Number))
-await fs.mkdir(CACHE, { recursive: true })
-await fs.mkdir(OUT, { recursive: true })
-const games = JSON.parse(await fs.readFile(DATA, 'utf8'))
-const failed = []
-const queue = games.filter((g) => !only.size || only.has(g.bggId))
-
-for (let i = 0; i < queue.length; i += 6) {
-  await Promise.all(
-    queue.slice(i, i + 6).map(async (g) => {
-      try {
-        const { spineW } = await makeSpine(g)
-        g.spineWidth = spineW / 2 // CSS px at 1x
-      } catch (e) {
-        failed.push(`${g.title}: ${e.message}`)
-      }
-    }),
-  )
+export async function prepare() {
+  await fs.mkdir(CACHE, { recursive: true })
+  await fs.mkdir(OUT, { recursive: true })
 }
 
-await fs.writeFile(DATA, JSON.stringify(games, null, 2) + '\n')
-console.log(`spines: ${queue.length - failed.length}/${queue.length}`)
-if (failed.length) console.log('failed:', failed)
+// Regenerates spines for the bundled collection (all, or the ids given).
+async function main() {
+  const only = new Set(process.argv.slice(2).map(Number))
+  await prepare()
+  const games = JSON.parse(await fs.readFile(DATA, 'utf8'))
+  const failed = []
+  const queue = games.filter((g) => !only.size || only.has(g.bggId))
+
+  for (let i = 0; i < queue.length; i += 6) {
+    await Promise.all(
+      queue.slice(i, i + 6).map(async (g) => {
+        try {
+          const { spineW } = await makeSpine(g)
+          g.spineWidth = spineW / 2 // CSS px at 1x
+        } catch (e) {
+          failed.push(`${g.title}: ${e.message}`)
+        }
+      }),
+    )
+  }
+
+  await fs.writeFile(DATA, JSON.stringify(games, null, 2) + '\n')
+  console.log(`spines: ${queue.length - failed.length}/${queue.length}`)
+  if (failed.length) console.log('failed:', failed)
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) await main()

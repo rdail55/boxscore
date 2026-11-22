@@ -1,108 +1,97 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import { useCallback, useEffect, useState } from 'react'
+import { supabase } from './supabase'
 
-// Plays live in a Google Sheet behind an Apps Script web app (google-sheet/).
 export type Play = {
   id: string
   date: string // yyyy-mm-dd
   bggId: number
-  game: string
   players: string[]
   winners: string[]
   notes: string
 }
 export type NewPlay = Omit<Play, 'id'>
 
-const URL = import.meta.env.VITE_PLAYS_URL as string | undefined
-const PASSCODE_KEY = 'boxscore.passcode'
-
-export const readPasscode = () => {
-  try {
-    return localStorage.getItem(PASSCODE_KEY) ?? ''
-  } catch {
-    return ''
-  }
-}
-export const savePasscode = (code: string) => {
-  try {
-    localStorage.setItem(PASSCODE_KEY, code)
-  } catch {
-    /* private mode: ask again next time */
-  }
+type PlayRow = {
+  id: string
+  bgg_id: number
+  played_on: string
+  notes: string
+  play_players: { won: boolean; players: { name: string } }[]
 }
 
-// Rows typed straight into the sheet may come back as Sheets dates
-// (e.g. "11/21/2026" or a full Date string); normalise to yyyy-mm-dd.
-function isoDate(d: string) {
-  if (/^\d{4}-\d{2}-\d{2}$/.test(d)) return d
-  const parsed = new Date(d)
-  return isNaN(+parsed) ? d : parsed.toLocaleDateString('en-CA')
-}
+const toPlay = (r: PlayRow): Play => ({
+  id: r.id,
+  date: r.played_on,
+  bggId: r.bgg_id,
+  notes: r.notes,
+  players: r.play_players.map((pp) => pp.players.name),
+  winners: r.play_players.filter((pp) => pp.won).map((pp) => pp.players.name),
+})
 
-async function post(body: object) {
-  if (!URL) throw new Error('Play log is not connected yet')
-  // text/plain avoids a CORS preflight, which Apps Script can't answer.
-  const res = await fetch(URL, { method: 'POST', headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify(body) })
-  const data = await res.json()
-  if (!data.ok) throw new Error(data.error ?? 'Saving failed')
-  return data
-}
-
-type Store = {
-  connected: boolean
-  loading: boolean
-  error: string | null
-  plays: Play[]
-  addPlay: (play: NewPlay, passcode: string) => Promise<void>
-  deletePlay: (id: string, passcode: string) => Promise<void>
-  refresh: () => Promise<void>
-}
-
-const PlaysContext = createContext<Store | null>(null)
-
-export function PlaysProvider({ children }: { children: ReactNode }) {
+/** Every play logged by one account. */
+export function usePlays(ownerId: string | undefined) {
   const [plays, setPlays] = useState<Play[]>([])
-  const [loading, setLoading] = useState(Boolean(URL))
-  const [error, setError] = useState<string | null>(null)
+  const [loading, setLoading] = useState(true)
 
-  const refresh = useCallback(async () => {
-    if (!URL) return
-    setLoading(true)
-    try {
-      const data = await (await fetch(URL)).json()
-      setPlays(data.plays.map((p: Play) => ({ ...p, date: isoDate(p.date) })))
-      setError(null)
-    } catch {
-      setError("Couldn't load plays from the sheet")
-    } finally {
-      setLoading(false)
-    }
-  }, [])
+  const load = useCallback(async () => {
+    if (!ownerId) return
+    const { data } = await supabase
+      .from('plays')
+      .select('id, bgg_id, played_on, notes, play_players(won, players(name))')
+      .eq('owner_id', ownerId)
+      .order('played_on', { ascending: false })
+    setPlays(((data ?? []) as unknown as PlayRow[]).map(toPlay))
+    setLoading(false)
+  }, [ownerId])
 
   useEffect(() => {
-    refresh()
-  }, [refresh])
+    load()
+  }, [load])
 
-  const addPlay = useCallback(async (play: NewPlay, passcode: string) => {
-    const { id } = await post({ play, passcode })
-    setPlays((ps) => [...ps, { ...play, id }])
-  }, [])
+  const addPlay = useCallback(
+    async (play: NewPlay) => {
+      if (!ownerId) throw new Error('Sign in to log plays')
+      // Reuse this owner's existing player rows by name, creating new ones as needed.
+      const { data: existing } = await supabase.from('players').select('id, name').eq('owner_id', ownerId)
+      const ids = new Map((existing ?? []).map((p) => [p.name.toLowerCase(), p.id as string]))
+      const missing = play.players.filter((n) => !ids.has(n.toLowerCase()))
+      if (missing.length) {
+        const { data, error } = await supabase
+          .from('players')
+          .insert(missing.map((name) => ({ owner_id: ownerId, name })))
+          .select('id, name')
+        if (error) throw new Error(error.message)
+        data.forEach((p) => ids.set(p.name.toLowerCase(), p.id))
+      }
 
-  const deletePlay = useCallback(async (id: string, passcode: string) => {
-    await post({ action: 'delete', id, passcode })
-    setPlays((ps) => ps.filter((p) => p.id !== id))
-  }, [])
-
-  const value = useMemo(
-    () => ({ connected: Boolean(URL), loading, error, plays, addPlay, deletePlay, refresh }),
-    [loading, error, plays, addPlay, deletePlay, refresh],
+      const { data: row, error } = await supabase
+        .from('plays')
+        .insert({ owner_id: ownerId, bgg_id: play.bggId, played_on: play.date, notes: play.notes })
+        .select('id')
+        .single()
+      if (error) throw new Error(error.message)
+      const { error: e2 } = await supabase.from('play_players').insert(
+        play.players.map((n) => ({ play_id: row.id, player_id: ids.get(n.toLowerCase()), won: play.winners.includes(n) })),
+      )
+      if (e2) {
+        await supabase.from('plays').delete().eq('id', row.id)
+        throw new Error(e2.message)
+      }
+      await load()
+    },
+    [ownerId, load],
   )
-  return <PlaysContext.Provider value={value}>{children}</PlaysContext.Provider>
-}
 
-export function usePlays() {
-  const store = useContext(PlaysContext)
-  if (!store) throw new Error('usePlays needs PlaysProvider')
-  return store
+  const deletePlay = useCallback(
+    async (id: string) => {
+      const { error } = await supabase.from('plays').delete().eq('id', id)
+      if (error) throw new Error(error.message)
+      setPlays((ps) => ps.filter((p) => p.id !== id))
+    },
+    [],
+  )
+
+  return { plays, loading, addPlay, deletePlay }
 }
 
 export type Standing = { name: string; wins: number; played: number }

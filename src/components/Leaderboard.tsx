@@ -1,23 +1,16 @@
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
+import { useShelf } from '../games'
 import { formatDate, standings, usePlays } from '../plays'
-import { gameById } from '../games'
-import { Nav } from './Shelf'
-
-export function SheetStatus() {
-  const { connected, loading, error } = usePlays()
-  if (!connected)
-    return (
-      <p className="rounded-xl bg-amber-400/10 p-4 text-sm text-amber-100/80">
-        The play log isn't connected to Google Sheets yet. Follow <code>google-sheet/README.md</code> to set it up.
-      </p>
-    )
-  if (error) return <p className="rounded-xl bg-red-500/10 p-4 text-sm text-red-200">{error}</p>
-  if (loading) return <p className="text-sm text-white/40">Loading plays…</p>
-  return null
-}
+import { ShelfTabs, TopBar } from './Shelf'
+import { NoShelf } from './ShelfPage'
 
 export default function Leaderboard() {
-  const { plays } = usePlays()
+  const { username } = useParams()
+  const { loading, owner, games } = useShelf(username)
+  const { plays } = usePlays(owner?.id)
+  if (!owner) return <NoShelf loading={loading} />
+  const base = `/u/${owner.username}`
+  const gameById = (id: number) => games.find((g) => g.bggId === id)
   const table = standings(plays)
   const recent = [...plays].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 10)
   const byGame = new Map<number, number>()
@@ -26,13 +19,10 @@ export default function Leaderboard() {
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-6">
-      <Nav />
-      <h1 className="mt-6 text-3xl font-bold">Leaderboard</h1>
+      <TopBar />
+      <ShelfTabs base={base} name={`${owner.display_name}'s shelf`} />
+      <h1 className="mt-4 text-3xl font-bold">Leaderboard</h1>
       <p className="text-sm text-white/50">{plays.length} {plays.length === 1 ? "play" : "plays"} logged</p>
-
-      <div className="mt-6">
-        <SheetStatus />
-      </div>
 
       <section className="mt-6 overflow-hidden rounded-xl bg-white/5">
         <table className="w-full text-left">
@@ -73,8 +63,8 @@ export default function Leaderboard() {
                 const g = gameById(id)
                 return (
                   <li key={id}>
-                    <Link to={`/game/${id}`} className="flex items-center gap-3 rounded-lg bg-white/5 p-2 hover:bg-white/10">
-                      {g && <img src={g.coverUrl} alt="" className="size-10 rounded object-cover" />}
+                    <Link to={`${base}/game/${id}`} className="flex items-center gap-3 rounded-lg bg-white/5 p-2 hover:bg-white/10">
+                      {g?.coverUrl && <img src={g.coverUrl} alt="" className="size-10 rounded object-cover" />}
                       <span className="flex-1">{g?.title ?? id}</span>
                       <span className="pr-2 text-white/60">{n}×</span>
                     </Link>
@@ -88,7 +78,7 @@ export default function Leaderboard() {
             <ul className="space-y-2">
               {recent.map((p) => (
                 <li key={p.id} className="rounded-lg bg-white/5 px-3 py-2 text-sm">
-                  <Link to={`/game/${p.bggId}`} className="font-medium hover:text-purple-200">{p.game}</Link>
+                  <Link to={`${base}/game/${p.bggId}`} className="font-medium hover:text-purple-200">{gameById(p.bggId)?.title ?? 'Game'}</Link>
                   <span className="text-white/40"> · {formatDate(p.date)}</span>
                   <p className="text-white/60">🏆 {p.winners.join(' & ')} <span className="text-white/35">over {p.players.filter((x) => !p.winners.includes(x)).join(', ') || '—'}</span></p>
                 </li>

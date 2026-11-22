@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { SHELF_H, type Game } from '../games'
+import { SpineFace } from './Shelf'
 
-export type RevealStart = { game: Game; rect: DOMRect }
+export type RevealStart = { game: Game; rect: DOMRect; to: string }
 
 // Sequence: the box slides out of the shelf spine-first, turns to show its
 // cover, then the lid swings open onto the game's page underneath.
@@ -24,7 +25,8 @@ export default function BoxReveal({ start, onOpen, onDone }: { start: RevealStar
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches
 
   useEffect(() => {
-    coverAspect(game.coverUrl).then(setAspect)
+    if (game.coverUrl) coverAspect(game.coverUrl).then(setAspect)
+    else setAspect(0.75)
   }, [game.coverUrl])
 
   useEffect(() => {
@@ -95,12 +97,12 @@ export default function BoxReveal({ start, onOpen, onDone }: { start: RevealStar
             boxShadow: '0 30px 60px -10px rgba(0,0,0,.7)',
           }}
         >
-          <img src={game.coverUrl} alt="" className="h-full w-full object-cover" />
+          {game.coverUrl ? <img src={game.coverUrl} alt="" className="h-full w-full object-cover" /> : <div className="h-full w-full bg-[#2a2030]" />}
           <span className="absolute inset-0 bg-[linear-gradient(120deg,rgba(255,255,255,.18),transparent_35%)]" />
         </div>
         {/* left: the spine the box was pulled by */}
         <div className={`${face} top-0`} style={{ width: D, height: H, left: (W - D) / 2, transform: `rotateY(-90deg) translateZ(${W / 2}px)` }}>
-          <img src={`/spines/${game.bggId}.webp`} alt="" className="h-full w-full" />
+          <SpineFace game={game} height={H} />
           <span className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,.35),transparent_30%,transparent_70%,rgba(0,0,0,.35))]" />
         </div>
         <div className={`${face} ${cardboard} top-0`} style={{ width: D, height: H, left: (W - D) / 2, transform: `rotateY(90deg) translateZ(${W / 2}px)` }} />

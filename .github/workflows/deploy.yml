@@ -4,15 +4,18 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Every 30 minutes: make spines for games people added on the site.
+  schedule:
+    - cron: '*/30 * * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -20,6 +23,9 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
+      VITE_SUPABASE_KEY: ${{ vars.VITE_SUPABASE_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -27,14 +33,30 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - run: npm run build
-        env:
-          VITE_PLAYS_URL: ${{ vars.VITE_PLAYS_URL }}
-      # Pages has no SPA rewrites: serve the app for deep links like /game/123.
-      - run: cp dist/index.html dist/404.html
+
+      - name: Make spines for newly added games
+        id: spines
+        run: |
+          node scripts/sync-spines.mjs
+          if [ -n "$(git status --porcelain public/spines)" ]; then
+            git config user.name "boxscore-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/spines
+            git commit -m "Add spines for newly added games"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Scheduled runs only redeploy when there are new spines.
+      - name: Build
+        if: github.event_name != 'schedule' || steps.spines.outputs.changed == 'true'
+        run: npm run build && cp dist/index.html dist/404.html # Pages has no SPA rewrites: serve the app for deep links
       - uses: actions/configure-pages@v5
+        if: github.event_name != 'schedule' || steps.spines.outputs.changed == 'true'
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'schedule' || steps.spines.outputs.changed == 'true'
         with:
           path: dist
       - id: deployment
+        if: github.event_name != 'schedule' || steps.spines.outputs.changed == 'true'
         uses: actions/deploy-pages@v4

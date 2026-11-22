@@ -1,0 +1,5002 @@
+[
+ {
+  "bggId": 1406,
+  "title": "Monopoly",
+  "wikipediaLanguages": 81
+ },
+ {
+  "bggId": 320,
+  "title": "Scrabble",
+  "wikipediaLanguages": 69
+ },
+ {
+  "bggId": 2093,
+  "title": "mahjong",
+  "wikipediaLanguages": 64
+ },
+ {
+  "bggId": 463,
+  "title": "Magic: The Gathering",
+  "wikipediaLanguages": 53
+ },
+ {
+  "bggId": 2223,
+  "title": "Uno",
+  "wikipediaLanguages": 49
+ },
+ {
+  "bggId": 12608,
+  "title": "Chess960",
+  "wikipediaLanguages": 45
+ },
+ {
+  "bggId": 2162,
+  "title": "Warhammer 40,000",
+  "wikipediaLanguages": 44
+ },
+ {
+  "bggId": 13,
+  "title": "The Settlers of Catan",
+  "wikipediaLanguages": 42
+ },
+ {
+  "bggId": 1294,
+  "title": null,
+  "wikipediaLanguages": 41
+ },
+ {
+  "bggId": 2425,
+  "title": "Battleship",
+  "wikipediaLanguages": 38
+ },
+ {
+  "bggId": 181,
+  "title": "Risk",
+  "wikipediaLanguages": 38
+ },
+ {
+  "bggId": 37198,
+  "title": "Risk",
+  "wikipediaLanguages": 38
+ },
+ {
+  "bggId": 2389,
+  "title": "Othello",
+  "wikipediaLanguages": 34
+ },
+ {
+  "bggId": 822,
+  "title": "Carcassonne",
+  "wikipediaLanguages": 32
+ },
+ {
+  "bggId": 2243,
+  "title": "Yahtzee",
+  "wikipediaLanguages": 29
+ },
+ {
+  "bggId": 4112,
+  "title": "Hex",
+  "wikipediaLanguages": 29
+ },
+ {
+  "bggId": 404427,
+  "title": "Mensch ärgere dich nicht",
+  "wikipediaLanguages": 28
+ },
+ {
+  "bggId": 9209,
+  "title": "Ticket to Ride",
+  "wikipediaLanguages": 27
+ },
+ {
+  "bggId": 1917,
+  "title": "Stratego",
+  "wikipediaLanguages": 27
+ },
+ {
+  "bggId": 40432,
+  "title": "Stratego",
+  "wikipediaLanguages": 27
+ },
+ {
+  "bggId": 2719,
+  "title": "Connect Four",
+  "wikipediaLanguages": 27
+ },
+ {
+  "bggId": 4192,
+  "title": "Warhammer",
+  "wikipediaLanguages": 26
+ },
+ {
+  "bggId": 2392,
+  "title": "Mastermind",
+  "wikipediaLanguages": 26
+ },
+ {
+  "bggId": 39856,
+  "title": "Dixit",
+  "wikipediaLanguages": 25
+ },
+ {
+  "bggId": 483,
+  "title": "Diplomacy",
+  "wikipediaLanguages": 25
+ },
+ {
+  "bggId": 2952,
+  "title": "Trivial Pursuit",
+  "wikipediaLanguages": 24
+ },
+ {
+  "bggId": 108687,
+  "title": "Puerto Rico",
+  "wikipediaLanguages": 23
+ },
+ {
+  "bggId": 3076,
+  "title": "Puerto Rico",
+  "wikipediaLanguages": 23
+ },
+ {
+  "bggId": 30549,
+  "title": "Pandemic",
+  "wikipediaLanguages": 22
+ },
+ {
+  "bggId": 5894,
+  "title": "Twister",
+  "wikipediaLanguages": 21
+ },
+ {
+  "bggId": 36218,
+  "title": "Dominion",
+  "wikipediaLanguages": 20
+ },
+ {
+  "bggId": 316377,
+  "title": "7 Wonders",
+  "wikipediaLanguages": 20
+ },
+ {
+  "bggId": 68448,
+  "title": "7 Wonders",
+  "wikipediaLanguages": 20
+ },
+ {
+  "bggId": 1927,
+  "title": "Munchkin",
+  "wikipediaLanguages": 19
+ },
+ {
+  "bggId": 624,
+  "title": "Quoridor",
+  "wikipediaLanguages": 19
+ },
+ {
+  "bggId": 178900,
+  "title": "Codenames",
+  "wikipediaLanguages": 19
+ },
+ {
+  "bggId": 526,
+  "title": "Abalone",
+  "wikipediaLanguages": 19
+ },
+ {
+  "bggId": 2651,
+  "title": "Power Grid",
+  "wikipediaLanguages": 18
+ },
+ {
+  "bggId": 681,
+  "title": "Quarto",
+  "wikipediaLanguages": 18
+ },
+ {
+  "bggId": 2453,
+  "title": "Blokus",
+  "wikipediaLanguages": 18
+ },
+ {
+  "bggId": 31260,
+  "title": "Agricola",
+  "wikipediaLanguages": 18
+ },
+ {
+  "bggId": 1038,
+  "title": "Tantrix",
+  "wikipediaLanguages": 17
+ },
+ {
+  "bggId": 34,
+  "title": "Arkham Horror (1st Edition)",
+  "wikipediaLanguages": 17
+ },
+ {
+  "bggId": 50381,
+  "title": "Cards Against Humanity",
+  "wikipediaLanguages": 17
+ },
+ {
+  "bggId": 1293,
+  "title": "Boggle",
+  "wikipediaLanguages": 17
+ },
+ {
+  "bggId": 172225,
+  "title": "Exploding Kittens",
+  "wikipediaLanguages": 17
+ },
+ {
+  "bggId": 148228,
+  "title": "Splendor",
+  "wikipediaLanguages": 17
+ },
+ {
+  "bggId": 3955,
+  "title": "Bang!",
+  "wikipediaLanguages": 17
+ },
+ {
+  "bggId": 478,
+  "title": "Citadels",
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 212445,
+  "title": "Blood Bowl",
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 712,
+  "title": "Blood Bowl",
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 3071,
+  "title": "Blood Bowl",
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 2288,
+  "title": "Blood Bowl",
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 103343,
+  "title": "A Game of Thrones",
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 6472,
+  "title": "A Game of Thrones",
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 98,
+  "title": "Axis & Allies",
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 10093,
+  "title": "Axis & Allies",
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 167791,
+  "title": null,
+  "wikipediaLanguages": 16
+ },
+ {
+  "bggId": 12333,
+  "title": "Twilight Struggle",
+  "wikipediaLanguages": 15
+ },
+ {
+  "bggId": 98778,
+  "title": "Hanabi",
+  "wikipediaLanguages": 15
+ },
+ {
+  "bggId": 18602,
+  "title": "Caylus",
+  "wikipediaLanguages": 15
+ },
+ {
+  "bggId": 2921,
+  "title": "The Game of Life",
+  "wikipediaLanguages": 15
+ },
+ {
+  "bggId": 432,
+  "title": "Take 5",
+  "wikipediaLanguages": 15
+ },
+ {
+  "bggId": 266192,
+  "title": "Wingspan",
+  "wikipediaLanguages": 15
+ },
+ {
+  "bggId": 438,
+  "title": "Scotland Yard",
+  "wikipediaLanguages": 14
+ },
+ {
+  "bggId": 11,
+  "title": "Bohnanza",
+  "wikipediaLanguages": 14
+ },
+ {
+  "bggId": 28,
+  "title": "Illuminati",
+  "wikipediaLanguages": 14
+ },
+ {
+  "bggId": 859,
+  "title": "Illuminati",
+  "wikipediaLanguages": 14
+ },
+ {
+  "bggId": 45,
+  "title": "Liar's Dice",
+  "wikipediaLanguages": 13
+ },
+ {
+  "bggId": 184502,
+  "title": "Liar's Dice",
+  "wikipediaLanguages": 13
+ },
+ {
+  "bggId": 21790,
+  "title": "Thurn and Taxis",
+  "wikipediaLanguages": 13
+ },
+ {
+  "bggId": 4143,
+  "title": "Guess Who?",
+  "wikipediaLanguages": 13
+ },
+ {
+  "bggId": 6249,
+  "title": "Alhambra",
+  "wikipediaLanguages": 13
+ },
+ {
+  "bggId": 1198,
+  "title": "Set",
+  "wikipediaLanguages": 13
+ },
+ {
+  "bggId": 93,
+  "title": "El Grande",
+  "wikipediaLanguages": 13
+ },
+ {
+  "bggId": 34635,
+  "title": "Stone Age",
+  "wikipediaLanguages": 13
+ },
+ {
+  "bggId": 3495,
+  "title": "Harry Potter Trading Card Game",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 3565,
+  "title": "Mordheim",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 5336,
+  "title": "Talisman",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 714,
+  "title": "Talisman",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 27627,
+  "title": "Talisman",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 25821,
+  "title": "The Werewolves of Miller's Hollow",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 699,
+  "title": "HeroQuest",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 3406,
+  "title": "Lines of Action",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 40692,
+  "title": "Small World",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 8909,
+  "title": "Luzhanqi",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 5749,
+  "title": "Simon",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 169786,
+  "title": "Scythe",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 129622,
+  "title": "Love Letter",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 590,
+  "title": "Mille Bornes",
+  "wikipediaLanguages": 12
+ },
+ {
+  "bggId": 527,
+  "title": "GIPF",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 7854,
+  "title": "YINSH",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 25613,
+  "title": "Through the Ages: A Story of Civilization",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 27588,
+  "title": "Zooloretto",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 56796,
+  "title": "Dōbutsu shōgi",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 107529,
+  "title": "Kingdom Builder",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 63268,
+  "title": "Dobble",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 361,
+  "title": "Hare and Tortoise",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 2655,
+  "title": "Hive",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 1219,
+  "title": "Labyrinth",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 230802,
+  "title": "Azul",
+  "wikipediaLanguages": 11
+ },
+ {
+  "bggId": 54,
+  "title": "Tikal",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 4040,
+  "title": "Triominoes",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 17226,
+  "title": "Descent: Journeys in the Dark",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 13308,
+  "title": "Niagara",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 54625,
+  "title": "Space Hulk",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 165838,
+  "title": "Space Hulk",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 2163,
+  "title": "Space Hulk",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 2346,
+  "title": "DVONN",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 215,
+  "title": "Tichu",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 13715,
+  "title": "Surakarta",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 5130,
+  "title": "Afrikan tähti",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 174430,
+  "title": "Gloomhaven",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 70919,
+  "title": "Takenoko",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 120677,
+  "title": "Terra Mystica",
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 258,
+  "title": null,
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 153938,
+  "title": null,
+  "wikipediaLanguages": 10
+ },
+ {
+  "bggId": 71,
+  "title": "Civilization",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 209872,
+  "title": "Keltis",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 34585,
+  "title": "Keltis",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 929,
+  "title": "The Great Dalmuti",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 28805,
+  "title": "Middle-Earth Strategy Battle Game",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 19764,
+  "title": "PÜNCT",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 2281,
+  "title": "Pictionary",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 9220,
+  "title": "Saboteur",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 199,
+  "title": "Manhattan",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 1258,
+  "title": "Phase 10",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 31999,
+  "title": "Tzaar",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 51,
+  "title": "Ricochet Robots",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 21389,
+  "title": "happy families",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 25669,
+  "title": "Qwirkle",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 5,
+  "title": "Acquire",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 143884,
+  "title": "Machi Koro",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 382,
+  "title": "Top Secret Spies",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 10,
+  "title": "Elfenland",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 42,
+  "title": "Tigris and Euphrates",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 188834,
+  "title": "Secret Hitler",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 205317,
+  "title": "Doom: The Boardgame",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 10640,
+  "title": "Doom: The Boardgame",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 204583,
+  "title": "Kingdomino",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 8098,
+  "title": "Jungle Speed",
+  "wikipediaLanguages": 9
+ },
+ {
+  "bggId": 3818,
+  "title": "Alias",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 108,
+  "title": "TAMSK",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 12493,
+  "title": "Twilight Imperium",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 24,
+  "title": "Twilight Imperium",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 50,
+  "title": "Lost Cities",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 32441,
+  "title": "Bezzerwizzer",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 70323,
+  "title": "King of Tokyo",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 40270,
+  "title": "Call of Cthulhu: The Card Game",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 2759,
+  "title": "Havannah",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 118,
+  "title": "Modern Art",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 1502,
+  "title": "Hotel",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 6978,
+  "title": "Neutron",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 748,
+  "title": "Trax",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 124742,
+  "title": "Android: Netrunner",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 243,
+  "title": "Advanced Squad Leader",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 2125,
+  "title": "Game of the Amazons",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 949,
+  "title": "TwixT",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 1269,
+  "title": "SKIP-BO",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 148949,
+  "title": "Istanbul",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 84876,
+  "title": "The Castles of Burgundy",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 158899,
+  "title": "Colt Express",
+  "wikipediaLanguages": 8
+ },
+ {
+  "bggId": 22847,
+  "title": "Connect6",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 5782,
+  "title": "Coloretto",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 31481,
+  "title": "Galaxy Trucker",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 3570,
+  "title": "Chicken Cha Cha Cha",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 4229,
+  "title": "Spellfire",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 327,
+  "title": "Looping Louie",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 2381,
+  "title": "Scattergories",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 29223,
+  "title": "Marrakech",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 24480,
+  "title": "The Pillars of the Earth",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 3825,
+  "title": "Breakthrough",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 21241,
+  "title": "Neuroshima Hex!",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 2944,
+  "title": "Halli Galli",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 5404,
+  "title": "Amun-Re",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 28143,
+  "title": "Race for the Galaxy",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 475,
+  "title": "Taj Mahal",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 18,
+  "title": "RoboRally",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 2842,
+  "title": "TransAmerica",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 29316,
+  "title": "The Landlord's Game",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 242,
+  "title": "Junta",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 855,
+  "title": "Java",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 86578,
+  "title": "Yonin shogi",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 120,
+  "title": "Hoity Toity",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 555,
+  "title": "The Princes of Florence",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 938,
+  "title": "Enchanted Forest",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 197405,
+  "title": "Tak",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 346121,
+  "title": "Botifarra",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 147116,
+  "title": "The Witcher Adventure Game",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 244992,
+  "title": "The Mind",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 316554,
+  "title": "Dune: Imperium",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 254640,
+  "title": "Just One",
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 199792,
+  "title": null,
+  "wikipediaLanguages": 7
+ },
+ {
+  "bggId": 88,
+  "title": "Torres",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 41,
+  "title": "Can't Stop",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 224031,
+  "title": "Cartagena",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 826,
+  "title": "Cartagena",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 16991,
+  "title": "Khet",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 421,
+  "title": "1830: The Game of Railroads and Robber Barons",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 2955,
+  "title": "Mexica",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 20551,
+  "title": "Shogun",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 1465,
+  "title": "Wizard",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 28720,
+  "title": "Brass: Lancashire",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 1568,
+  "title": "Space Crusade",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 442,
+  "title": "Um Reifenbreite",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 2679,
+  "title": "Mouse Trap",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 16986,
+  "title": "Ubongo",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 40529,
+  "title": "Cosmic Encounter",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 39463,
+  "title": "Cosmic Encounter",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 15,
+  "title": "Cosmic Encounter",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 40531,
+  "title": "Cosmic Encounter",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 700,
+  "title": "Battle Masters",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 2266,
+  "title": "Gobblet",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 115746,
+  "title": "War of the Ring",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 42131,
+  "title": "War of the Ring",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 9609,
+  "title": "War of the Ring",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 25417,
+  "title": "BattleLore",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 38453,
+  "title": "Space Alert",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 9674,
+  "title": "Ingenious",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 4282,
+  "title": "Farkle",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 3737,
+  "title": "Operation",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 1859,
+  "title": "Doom Trooper",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 2511,
+  "title": "Sherlock Holmes Consulting Detective",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 278,
+  "title": "Catan Card Game",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 72125,
+  "title": "Eclipse",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 15062,
+  "title": "Shadows Over Camelot",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 121,
+  "title": "Dune",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 4102,
+  "title": "Europa Universalis",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 286751,
+  "title": "Zombicide",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 113924,
+  "title": "Zombicide",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 146021,
+  "title": "Eldritch Horror",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 413246,
+  "title": "Bomb Busters",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 237182,
+  "title": "Root",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 193738,
+  "title": "Great Western Trail",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 295947,
+  "title": "Cascadia",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 312484,
+  "title": "Lost Ruins of Arnak",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 240980,
+  "title": "Blood on the Clocktower",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 373106,
+  "title": "Sky Team",
+  "wikipediaLanguages": 6
+ },
+ {
+  "bggId": 3439,
+  "title": "HeroClix",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 1035,
+  "title": "Squad Leader",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 4286,
+  "title": "A Game of Thrones",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 823,
+  "title": "Lord of the Rings",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 2407,
+  "title": "Sorry!",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 5295,
+  "title": "Tactics",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 31766,
+  "title": "Tactics",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 104006,
+  "title": "Village",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 6552,
+  "title": "Cashflow 101",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 66188,
+  "title": "Fresco",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 1041,
+  "title": "San Marco",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 12,
+  "title": "Ra",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 1301,
+  "title": "Netrunner",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 7,
+  "title": "Cathedral",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 10653,
+  "title": "Pirates Constructible Strategy Game",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 4815,
+  "title": "The Campaign for North Africa",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 127398,
+  "title": "The Legends of Andor",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 550,
+  "title": "Barbarossa",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 7805,
+  "title": "Fearsome Floors",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 9296,
+  "title": "Warzone",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 4978,
+  "title": "Warzone",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 65244,
+  "title": "Forbidden Island",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 391163,
+  "title": "Forest Shuffle",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 12005,
+  "title": "Around the World in 80 Days",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 54043,
+  "title": "Jaipur",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 1339,
+  "title": "Dungeon!",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 191203,
+  "title": "Commander Chess",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 256,
+  "title": "Mississippi Queen",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 28389,
+  "title": "Minishōgi",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 1552,
+  "title": "Illuminati: New World Order",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 133473,
+  "title": "Sushi Go!",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 10547,
+  "title": "Betrayal at House on the Hill",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 157354,
+  "title": "Five Tribes: The Djinns of Naqala",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 1410,
+  "title": "Trouble",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 121921,
+  "title": "Robinson Crusoe: Adventures on the Cursed Island",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 24455,
+  "title": "A History of Chess",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 4636,
+  "title": "Clans",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 147151,
+  "title": "Concept",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 2197,
+  "title": "Kensington",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 28936,
+  "title": "whale shogi",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 83195,
+  "title": "Ghost Blitz",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 1899,
+  "title": "13 Dead End Drive",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 181304,
+  "title": "Mysterium",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 170216,
+  "title": "Blood Rage",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 171623,
+  "title": "The Voyages of Marco Polo",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 306676,
+  "title": "Tales from the Loop",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 244521,
+  "title": "The Quacks of Quedlinburg",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 284083,
+  "title": "The Crew: The Quest for Planet Nine",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 318977,
+  "title": "MicroMacro: Crime City",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 370591,
+  "title": "Dorfromantik: The Board Game",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 369646,
+  "title": "Disney Lorcana",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 127685,
+  "title": "Suffragetto",
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 162886,
+  "title": null,
+  "wikipediaLanguages": 5
+ },
+ {
+  "bggId": 8203,
+  "title": "Hey, That's My Fish!",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 66,
+  "title": "Löwenherz",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 17053,
+  "title": "Sleeping Queens",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 2338,
+  "title": "Starship Catan",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 14105,
+  "title": "Commands & Colors: Ancients",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 19679,
+  "title": "Hordes",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 715,
+  "title": "Escape from Colditz",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 53953,
+  "title": "Thunderstone",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 8195,
+  "title": "Viva Topo!",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 22345,
+  "title": "Yspahan",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 237,
+  "title": "Wooden Ships and Iron Men",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 3052,
+  "title": "Sim City: The Card Game",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 4390,
+  "title": "Carcassonne: Hunters and Gatherers",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 77130,
+  "title": "Civilization",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 2987,
+  "title": "Pirate's Cove",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 1875,
+  "title": "Isolation",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 17133,
+  "title": "Railways of the World",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 30966,
+  "title": "Knightmare Chess",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 227,
+  "title": "Knightmare Chess",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 1261,
+  "title": "Medina",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 167270,
+  "title": "Medina",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 380,
+  "title": "Polarity",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 24068,
+  "title": "Shadow Hunters",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 7308,
+  "title": "Rock 'Em Sock 'Em Robots",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 1,
+  "title": "Die Macher",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 586,
+  "title": "Up Front",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 1499,
+  "title": "World in Flames",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 22827,
+  "title": "StarCraft: The Board Game",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 3312,
+  "title": "1776",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 655,
+  "title": "Castle",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 15512,
+  "title": "Diamant",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 41114,
+  "title": "The Resistance",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 6112,
+  "title": "Battle Dome",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 73761,
+  "title": "K2",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 5255,
+  "title": "Gorkamorka",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 1334,
+  "title": "Entdecker",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 503,
+  "title": "Through the Desert",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 15818,
+  "title": "Pickomino",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 175,
+  "title": "Beat the Buzzard",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 3851,
+  "title": "Dune CCG",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 102794,
+  "title": "Caverna: The Cave Farmers",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 161782,
+  "title": "Kremlin",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 196,
+  "title": "Kremlin",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 2603,
+  "title": "The Lord of the Rings Trading Card Game",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 1234,
+  "title": "Once Upon a Time",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 2653,
+  "title": "Survive: Escape from Atlantis!",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 15033,
+  "title": "Australia",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 21763,
+  "title": "Mr. Jack",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 209778,
+  "title": "Magic Maze",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 172386,
+  "title": "Mombasa",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 83330,
+  "title": "Mansions of Madness: First Edition",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 15817,
+  "title": "Manila",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 466,
+  "title": "Inkognito",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 200,
+  "title": "Entdecker",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 414317,
+  "title": "Harmonies",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 124361,
+  "title": "Concordia",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 367966,
+  "title": "Endeavor: Deep Sea",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 271460,
+  "title": "Uno Flip!",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 255664,
+  "title": "The Binding of Isaac: Four Souls",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 191862,
+  "title": "Imhotep: Builder of Egypt",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 163412,
+  "title": "Patchwork",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 219215,
+  "title": "Werewords",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 124708,
+  "title": "Mice and Mystics",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 357563,
+  "title": "Akropolis",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 274637,
+  "title": "Unmatched",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 821,
+  "title": "La-Trel",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 225694,
+  "title": "Decrypto",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 334986,
+  "title": "Daybreak",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 3228,
+  "title": "Pueblo",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 342942,
+  "title": "Ark Nova",
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 4098,
+  "title": null,
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 205637,
+  "title": null,
+  "wikipediaLanguages": 4
+ },
+ {
+  "bggId": 1155,
+  "title": "Capitol",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 17240,
+  "title": "That's Life!",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 27746,
+  "title": "Colosseum",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 91671,
+  "title": "Mato Mato",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 3417,
+  "title": "Tribulation",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 701,
+  "title": "A House Divided",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1430,
+  "title": "Caesar",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 5048,
+  "title": "Candy Land",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1540,
+  "title": "BattleTech",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 22141,
+  "title": "Cleopatra and the Society of Architects",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 23864,
+  "title": "Clobber",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 24698,
+  "title": "Dameo",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 410201,
+  "title": "Wyrmspan",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 908,
+  "title": "Tally Ho!",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 8304,
+  "title": "So Long Sucker",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 19540,
+  "title": "Simpei",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 73664,
+  "title": "Cabo",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 7860,
+  "title": "The Simpsons Trading Card Game",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 2421,
+  "title": "Tell Me",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1513,
+  "title": "Republic of Rome",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 10997,
+  "title": "Boomtown",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 43015,
+  "title": "Hansa Teutonica",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 54138,
+  "title": "Imperial 2030",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 19803,
+  "title": "Martian chess",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 37120,
+  "title": "Pack & Stack",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 140,
+  "title": "Pit",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 8095,
+  "title": "Prophecy",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1768,
+  "title": "Fireball Island",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 47185,
+  "title": "Warhammer: Invasion",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 8863,
+  "title": "Horus Heresy",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 71021,
+  "title": "Evolution: The Origin of Species",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 3360,
+  "title": "Lexicon",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 286,
+  "title": "Machiavelli",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 22889,
+  "title": "Pictureka!",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1783,
+  "title": "The Creature That Ate Sheboygan",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1515,
+  "title": "Upwords",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 109125,
+  "title": "Wallenstein",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 3307,
+  "title": "Wallenstein",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 19,
+  "title": "Drunter und Drüber",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 12995,
+  "title": "Dungeon Twister",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 9216,
+  "title": "Goa",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 116,
+  "title": "Guillotine",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 12002,
+  "title": "Jambo",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 254,
+  "title": "Empires in Arms",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 847,
+  "title": "Feudal",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 12692,
+  "title": "Gloom",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 146312,
+  "title": "Ghost Fightin' Treasure Hunters",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 147020,
+  "title": "Star Realms",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 19996,
+  "title": "Magician's Night",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 394,
+  "title": "Kahuna",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 58,
+  "title": "Kings & Things",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 217,
+  "title": "A la carte",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 37111,
+  "title": "Battlestar Galactica: The Board Game",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 177524,
+  "title": "Ice cool",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 217372,
+  "title": "The Quest for El Dorado",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 219513,
+  "title": "Bärenpark",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 359871,
+  "title": "Arcs",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1730,
+  "title": "Coppit",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 67492,
+  "title": "Battles of Westeros",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1709,
+  "title": "Trireme",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 9246,
+  "title": "L'Attaque",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 150376,
+  "title": "Dead of Winter: A Cross Roads Game",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 17392,
+  "title": "Here I Stand",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 416851,
+  "title": "Castle Combo",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 284435,
+  "title": "Nova Luna",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 263918,
+  "title": "Cartographers: A Roll Player Tale",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 406854,
+  "title": "Odin",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 209685,
+  "title": "Century: Spice Road",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 166384,
+  "title": "Spyfall",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 175914,
+  "title": "Food Chain Magnate",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 144733,
+  "title": "Russian Railroads",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 131260,
+  "title": "Qwixx",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 191004,
+  "title": "My First Stone Age",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 3377,
+  "title": "20 Questions",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1797,
+  "title": "Pay Day",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 366013,
+  "title": "Heat: Pedal to the Metal",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 420087,
+  "title": "Flip 7",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 241590,
+  "title": "Smart 10",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 172,
+  "title": "For Sale",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 160477,
+  "title": "Onitama",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 183251,
+  "title": "Karuba",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 164928,
+  "title": "Orléans",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 8395,
+  "title": "Giganten (board game)",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 906,
+  "title": "Abilene",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 172308,
+  "title": "Broom Service",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 176494,
+  "title": "Isle of Skye: From Chieftain to King",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 183394,
+  "title": "Viticulture",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 128621,
+  "title": "Viticulture",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 14249,
+  "title": "Pank-a-Squith",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 171131,
+  "title": "Captain Sonar",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 235655,
+  "title": "Dragon'g Breath",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 1353,
+  "title": "Time's Up!",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 167355,
+  "title": "Nemesis",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 359970,
+  "title": "Challengers!",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 7483,
+  "title": "Schatz der Drachen",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 201808,
+  "title": "Clank! A Deck-Building Adventure",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 300010,
+  "title": "Dragomino",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 300531,
+  "title": "Paleo",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 30380,
+  "title": "Cuba",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 187645,
+  "title": "Star Wars: Rebellion",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 232974,
+  "title": "Paco Ŝako",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 385761,
+  "title": "Faraway",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 352515,
+  "title": "Trio",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 354886,
+  "title": "Quacks & Co.: Quedlinburg Dash",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 350184,
+  "title": "Earth",
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 245476,
+  "title": null,
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 318243,
+  "title": null,
+  "wikipediaLanguages": 3
+ },
+ {
+  "bggId": 22897,
+  "title": "Dreamblade",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 553,
+  "title": "Chez Geek",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 422,
+  "title": "1835",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 4052,
+  "title": "Star Wars Trading Card Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2573,
+  "title": "Rivers, Roads & Rails",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2229,
+  "title": "The Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 305,
+  "title": "The Flying Dutchman",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 25643,
+  "title": "Arkadia",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 21551,
+  "title": "SPQR",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1444,
+  "title": "SPQR",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 3347,
+  "title": "Solo",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1599,
+  "title": "StarGate",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 49,
+  "title": "Mamma Mia!",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2767,
+  "title": "Snail's Pace Race",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 73439,
+  "title": "Troyes",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1701,
+  "title": "Toscana",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 4977,
+  "title": "VOR: The Maelstrom",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 14808,
+  "title": "Marvel Heroes",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 16444,
+  "title": "Battle of the Bulge",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2422,
+  "title": "Bismarck",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 8392,
+  "title": "Buckaroo!",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 5251,
+  "title": "Camelot",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 27710,
+  "title": "Catan Dice Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 815,
+  "title": "Chrononauts",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 4378,
+  "title": "Cootie",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 331106,
+  "title": "Warhammer The Old World",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 367220,
+  "title": "Sea Salt & Paper",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 594,
+  "title": "Sleuth",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 20217,
+  "title": "Splash Attack",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 6383,
+  "title": "Life Style",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 25554,
+  "title": "Notre Dame",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 72991,
+  "title": "Asara",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 7688,
+  "title": "Memory (game)",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 252,
+  "title": "Borodino",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 3661,
+  "title": "Imperium",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 20281,
+  "title": "Inkan aarre",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 119,
+  "title": "Kingdoms",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 110327,
+  "title": "Lords of Waterdeep",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 5339,
+  "title": "Monopoly Junior",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 34615,
+  "title": "New World: A Carcassonne Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2363,
+  "title": "Orient Express",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 5588,
+  "title": "Perfection",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1289,
+  "title": "All The King's Men",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 944,
+  "title": "Mag·Blast",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 10884,
+  "title": "White Bear and Red Moon",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 670,
+  "title": "Starship Troopers",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 19544,
+  "title": "Berserk",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 37698,
+  "title": "Le Cochon qui rit",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 77423,
+  "title": "The Lord of the Rings: The Card Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 5770,
+  "title": "Orchard",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1950,
+  "title": "Mysteries of Old Peking",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2472,
+  "title": "Grave Robbers from Outer Space",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1713,
+  "title": "Maharaja",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 8147,
+  "title": "Maka Bana",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 34084,
+  "title": "Witch's Brew",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 18258,
+  "title": "Mission: Red Planet",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 176920,
+  "title": "Mission: Red Planet",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 57,
+  "title": "Schoko & Co.",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 551,
+  "title": "Battle Cry",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 8930,
+  "title": "Buffy the Vampire Slayer Collectible Card Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 27364,
+  "title": "Caylus Magna Carta",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 11730,
+  "title": "Diam",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 22392,
+  "title": "TEG",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 25261,
+  "title": "Tannhäuser",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 936,
+  "title": "The Fury of Dracula",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2808,
+  "title": "The Russian Campaign",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 10156,
+  "title": "The Russian Campaign",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 144858,
+  "title": "Trishogi",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2228,
+  "title": "War of the Ring",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 24396,
+  "title": "War on Terror",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 32341,
+  "title": "Cockroach Salad",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 166031,
+  "title": "Sword Girls",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 19526,
+  "title": "Elasund",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 20080,
+  "title": "Aqua Romana",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2545,
+  "title": "Contigo",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 393325,
+  "title": "Captain Flip",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 392491,
+  "title": "Taco Kitten Pizza",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 390092,
+  "title": "Ticket to Ride Legacy: Legends of the West",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 30869,
+  "title": "Thebes",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 3800,
+  "title": "Himalaya",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 153,
+  "title": "Take 5!",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 118048,
+  "title": "Targi",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 91312,
+  "title": "Discworld: Ankh-Morpork",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 25337,
+  "title": "Doctor Who – Battles in Time",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 4746,
+  "title": "Dungeons & Dragons Computer Labyrinth Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 15045,
+  "title": "Star Wars Risk: The Clone Wars Edition",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 40393,
+  "title": "Fits",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 100901,
+  "title": "Flash Point: Fire Rescue",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 3099,
+  "title": "Gettysburg",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 244,
+  "title": "Circus Maximus",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 11102,
+  "title": "Jews out!",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1197,
+  "title": "Blink",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1717,
+  "title": "Freedom in the Galaxy",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 20,
+  "title": "Full Metal Planète",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 122522,
+  "title": "Smash up",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 175117,
+  "title": "Celestia",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 11421,
+  "title": "Uisge",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 824,
+  "title": "Hijara",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 37046,
+  "title": "Ghost Stories",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2598,
+  "title": "Tank Battle",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 40914,
+  "title": "Afrika Korps",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2259,
+  "title": "Afrika Korps",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 26,
+  "title": "Age of Renaissance",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2272,
+  "title": "Aggravation",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 6282,
+  "title": "Azhanti High Lightning",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1184,
+  "title": "Rock Island",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 411875,
+  "title": "Pixies",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 569,
+  "title": "Maestro",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 494,
+  "title": "Ave Caesar",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 3554,
+  "title": "Rich Uncle",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 96649,
+  "title": "Wildebeest Chess",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 878,
+  "title": "Wyatt Earp",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 33436,
+  "title": "Veto",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1563,
+  "title": "Rise and Decline of the Third Reich",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 91536,
+  "title": "Quarriors!",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 102680,
+  "title": "Trajan",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 171499,
+  "title": "Cacao",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 126005,
+  "title": "Punaisten ja valkoisten taistelu Suomessa 1918",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2470,
+  "title": "The Extraordinary Adventures of Baron Munchausen",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 18657,
+  "title": "Test Match",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 795,
+  "title": "Dragonlance",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 131357,
+  "title": "Coup",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 3855,
+  "title": "Crimson Skies",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 259830,
+  "title": "Hedgehog Roll",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 45315,
+  "title": "Dungeon Lords",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 435346,
+  "title": "Mooki Island",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 417197,
+  "title": "Rebirth",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 434654,
+  "title": "Toy Battle",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 122515,
+  "title": "Keyflower",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 146508,
+  "title": "T.I.M.E Stories",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 126163,
+  "title": "Tzolk'in: The Mayan Calendar",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 217331,
+  "title": "Schnapp die Nuss!",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 10005,
+  "title": "Colomino",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 136063,
+  "title": "Forbidden Desert",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 26997,
+  "title": "1989: Dawn of Freedom",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 17534,
+  "title": "Just 4 Fun",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 205359,
+  "title": "Star Wars: Destiny",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 220308,
+  "title": "Gaia Project",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 12346,
+  "title": "Spooky stairs",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 197831,
+  "title": "Dark Souls – The Board Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 384213,
+  "title": "Fromage",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 295488,
+  "title": "Andor: The Family Fantasy Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 245643,
+  "title": "Luxor",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 266524,
+  "title": "Parks",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 437306,
+  "title": "Parks",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 55690,
+  "title": "Kingdom Death: Monster",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1631,
+  "title": "Barbarian Prince",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 177590,
+  "title": "13 Days: The Cuban Missile Crisis",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 156009,
+  "title": "Port Royal",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 218603,
+  "title": "Photosynthesis",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 418059,
+  "title": "SETI: Search for Extraterrestrial Intelligence",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 170042,
+  "title": "Raiders of the North Sea",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2492,
+  "title": "Doctor Faust",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 28089,
+  "title": "Burg Appenzell",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 66825,
+  "title": "Kraken-Alarm",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 449853,
+  "title": "Frosted Blooms",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 153425,
+  "title": "North Wind",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 229218,
+  "title": "A Game of Thrones: Catan – Brotherhood of the Watch",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 274960,
+  "title": "Point Salad",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 332290,
+  "title": "Stardew Valley: The Board Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 163602,
+  "title": "XCOM",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 173090,
+  "title": "The Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 217449,
+  "title": "NMBR 9",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 199561,
+  "title": "Sagrada",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 438998,
+  "title": "Commonspoly",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 30381,
+  "title": "Hamburgum",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 232520,
+  "title": "Pioneers",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 19600,
+  "title": "Antike",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 820,
+  "title": "Axiom",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 287084,
+  "title": "Oriflamme",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 159375,
+  "title": "Prime Climb",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 291572,
+  "title": "Oath: Chronicles of Empire and Exile",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 400495,
+  "title": "JinxO",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 462742,
+  "title": "Morty Sorty Magic Shop",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 454722,
+  "title": "Boo Party",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 227072,
+  "title": "The Chameleon",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 374173,
+  "title": "Star Wars: The Deckbuilding Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 271324,
+  "title": "It's a Wonderful World",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 3350,
+  "title": "Schaska",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 287693,
+  "title": "Anubixx",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 289363,
+  "title": "Ms. Monopoly",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 105037,
+  "title": "Tournay",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 283155,
+  "title": "Calico",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 310448,
+  "title": "Zombie Teenz Evolution",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 4587,
+  "title": "Roller Coaster Hippo",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 355483,
+  "title": "Wandering Towers",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 295490,
+  "title": "Dodo – Rettet das Wackel-Ei",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 370164,
+  "title": "Fun Facts",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 353545,
+  "title": "Next Station: London",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 258779,
+  "title": "Planet Unknown",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 329082,
+  "title": "Radlands",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 62227,
+  "title": "Labyrinth",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 194880,
+  "title": "Dream Home",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 1402,
+  "title": "Neolithibum",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 230383,
+  "title": "Memoarrr!",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 230080,
+  "title": "Majesty: For the Realm",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 244144,
+  "title": "Catan Histories: Rise of the Inka",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 84419,
+  "title": "Space Empires 4X",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 269526,
+  "title": "Valley of the Vikings",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 54998,
+  "title": "Cyclades",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 9022,
+  "title": "In the Kingdom of the Polar Bear",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 180020,
+  "title": "Virus!",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 4839,
+  "title": "Berlin ’85: The Enemy at the Gates",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 3248,
+  "title": "Citadel of Blood",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2678,
+  "title": "Voyage of the B.S.M. Pandora",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 10206,
+  "title": "Make ’n’ Break",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 151985,
+  "title": "Evolution: Random Mutations",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 202977,
+  "title": "Cytosis: A Cell Biology Board Game",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 232043,
+  "title": "Queendomino",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 295770,
+  "title": "Frosthaven",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 291453,
+  "title": "Scout",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 341919,
+  "title": "Magic Mountain",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 346703,
+  "title": "7 Wonders: Architects",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 249259,
+  "title": "War Chest",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 441696,
+  "title": "Sanctuary",
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 146149,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 300905,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 409498,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 2086,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 359029,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 419639,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 423232,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 422732,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 454672,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 425549,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 456440,
+  "title": null,
+  "wikipediaLanguages": 2
+ },
+ {
+  "bggId": 91523,
+  "title": "Mondo",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 150,
+  "title": "Carabande",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 33112,
+  "title": "War",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 9794,
+  "title": "Rummoli",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 34583,
+  "title": "Set Cubed",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2123,
+  "title": "Shadowrun: The Trading Card Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1577,
+  "title": "Source of the Nile",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2334,
+  "title": "Square Mile",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4651,
+  "title": "Stalingrad",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 13414,
+  "title": "Star Probe",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 5258,
+  "title": "Star Trek: The Next Generation Interactive VCR Board Game – A Klingon Challenge",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 7420,
+  "title": "Star Wars Miniatures Battles",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 22278,
+  "title": "12 Thieves",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 26204,
+  "title": "Spion & Spion",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 35704,
+  "title": "Shadows over Camelot: Merlin's Company",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2942,
+  "title": "Admirals",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 9028,
+  "title": "Tongiaki",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 554,
+  "title": "La Città",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 39683,
+  "title": "At the Gates of Loyang",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1070,
+  "title": "Shadows in the Forest",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 25236,
+  "title": "Ear Tug",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 9388,
+  "title": "Toc Toc Toc !",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 12157,
+  "title": "Unanimo",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 633,
+  "title": "Elixir",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 8166,
+  "title": "Anno 1503",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 13614,
+  "title": "Chancellorsville",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 24800,
+  "title": "Conflict of Heroes: Awakening the Bear! – Russia 1941-42",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 26990,
+  "title": "Container",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1190,
+  "title": "Continuo",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 17136,
+  "title": "Da Vinci's Challenge",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1489,
+  "title": "Deadwood",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 5056,
+  "title": "D.A.K.",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 21022,
+  "title": "Found Objects",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3435,
+  "title": "Oh ! les nains",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 29805,
+  "title": "Petits Meurtres & Faits Divers",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 42490,
+  "title": "Pony express",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1330,
+  "title": "Savannah Café",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 18765,
+  "title": "Shabadabada",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 20694,
+  "title": "Sillage",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 12316,
+  "title": "Sky My Husband",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 97786,
+  "title": "Small World Underground",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 10096,
+  "title": "Splotch!",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 92465,
+  "title": "Sporz Original Outbreak",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 5711,
+  "title": "Squad Seven",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 18885,
+  "title": "Syllabus",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 18803,
+  "title": "Black Stories",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 7026,
+  "title": "Grunt",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 37628,
+  "title": "Haggis",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 11371,
+  "title": "Hey Pa! There's a Goat on the Roof",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 14423,
+  "title": "Hūsker Dū?",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 22168,
+  "title": "Ironclad",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 145428,
+  "title": "Jinsei Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 14698,
+  "title": "Keep Cool",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 987,
+  "title": "Kingmaker",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 7334,
+  "title": "Knockout",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2348,
+  "title": "Lotus",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 101721,
+  "title": "Mage Wars Arena",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 22,
+  "title": "Magic Realm",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 18054,
+  "title": "Marvel Legends Showdown",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 713,
+  "title": "Nuclear War",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3041,
+  "title": "Panzergruppe Guderian",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 37175,
+  "title": "Playing Gods",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2518,
+  "title": "Quicksand",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 12962,
+  "title": "Reef Encounter",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 25292,
+  "title": "Merchants & Marauders",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 75165,
+  "title": "De vulgari eloquentia",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3384,
+  "title": "Kerrunch",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 20935,
+  "title": "Magikon",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 59294,
+  "title": "Runewars",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 18932,
+  "title": "Siena",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1042,
+  "title": "Dragon's Gold",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 5446,
+  "title": "The Conquest of Oil",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3243,
+  "title": "Wooly Wars",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2535,
+  "title": "Valley of the Mammoths",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6068,
+  "title": "Queen's Necklace",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 634,
+  "title": "River Dragons",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 31845,
+  "title": "Livequiz",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 36946,
+  "title": "Red November",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1387,
+  "title": "Alaska",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4471,
+  "title": "Fist of Dragonstones",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1071,
+  "title": "Aztec",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 19237,
+  "title": "Cash'n Guns",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 98189,
+  "title": "Casse-toi pov' con",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 36932,
+  "title": "Claustrophobia",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 15271,
+  "title": "Contrario",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6824,
+  "title": "De l'Orc pour les braves",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 542,
+  "title": "Democrazy",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 20436,
+  "title": "Stonehenge",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1423,
+  "title": "Storm Over Arnhem",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3547,
+  "title": "Survival of the Witless",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 117,
+  "title": "Ta Yü",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4558,
+  "title": "Take Off!",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3577,
+  "title": "Terrible Swift Sword",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2063,
+  "title": "The Great Khan Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 41010,
+  "title": "The Kids of Carcassonne",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 13208,
+  "title": "Thin Ice",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4957,
+  "title": "Timberland",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 7215,
+  "title": "To the Green Fields Beyond",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2607,
+  "title": "Totopoly",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3598,
+  "title": "Tracks to Telluride",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 21955,
+  "title": "Treehouse",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 9264,
+  "title": "Tricolor",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 25972,
+  "title": "Victory at Sea",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1442,
+  "title": "Victory in the Pacific",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 27532,
+  "title": "Vineta",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 626,
+  "title": "War and Peace",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 31198,
+  "title": "War at Sea",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1431,
+  "title": "War at Sea",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6312,
+  "title": "Wiz Ball",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6744,
+  "title": "Feudal Lord",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 13373,
+  "title": "Choco",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 21709,
+  "title": "Jericho",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2280,
+  "title": "Marco Polo",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 10660,
+  "title": "Micropul",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 17572,
+  "title": "Crazy Casino",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 24697,
+  "title": "Hexdame",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 340,
+  "title": "Frank's Zoo",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 87893,
+  "title": "Take It or Leave It",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 23541,
+  "title": "Dinosaurus",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 340466,
+  "title": "Unfathomable",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 11778,
+  "title": "Cat & Mouse",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 91873,
+  "title": "Strasbourg",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 7116,
+  "title": "Don't Be Annoyed",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 127024,
+  "title": "Room 25",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 271601,
+  "title": "Feed the Kraken",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1549,
+  "title": "Password",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 5630,
+  "title": "Eighth Air Force",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 430,
+  "title": "Asterix – The cardgame",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 336986,
+  "title": "Flamecraft",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4407,
+  "title": "Don't Miss the Boat!",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6366,
+  "title": "Dungeons & Dragons: The Fantasy Adventure Board Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 17804,
+  "title": "Dungeons & Dragons Basic Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4779,
+  "title": "Easy Money",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 168,
+  "title": "Empire Builder",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 911,
+  "title": "Empires of the Middle Ages",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2402,
+  "title": "Ghoulash: The Last Game on Earth",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 17597,
+  "title": "Suomi Tietopeli",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 66659,
+  "title": "Vauhdin Maailma",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 104955,
+  "title": "Antike Duellum",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 43570,
+  "title": "Friday",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3022,
+  "title": "Clue VCR Mystery Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 26507,
+  "title": "Occhio!",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 131366,
+  "title": "Eight-Minute Empire",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 164338,
+  "title": "The Golden Ages",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 158392,
+  "title": "Stay Away!",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 30684,
+  "title": "Johnny Reb",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 491,
+  "title": "Web of Power",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 23033,
+  "title": "Push",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 28025,
+  "title": "Wicked Witches Way",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 29109,
+  "title": "Dust",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 33061,
+  "title": "Défifoo",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 33160,
+  "title": "Endeavor",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 27768,
+  "title": "Finis ton Assiette",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 19030,
+  "title": "Frankenstein",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3085,
+  "title": "Gang of Four",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 28989,
+  "title": "Garçon",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 23977,
+  "title": "Hell Dorado",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 40212,
+  "title": "Intervention divine",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4813,
+  "title": "Kamakura",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4394,
+  "title": "The Settlers of the Stone Age",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 8486,
+  "title": "Bed Bugs",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 158900,
+  "title": "Samurai Spirit",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 759,
+  "title": "Turning Point: Stalingrad",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 986,
+  "title": "Babel",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 204592,
+  "title": "The Mysterious Forest",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 134626,
+  "title": "Golden Horn: Von Venedig nach Konstantinopel",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 62219,
+  "title": "Dominant Species",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4493,
+  "title": "Kayanak",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 24508,
+  "title": "Taluva",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 27339,
+  "title": "3 Man Chess",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 9084,
+  "title": "Grunwald 1410",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6263,
+  "title": "King's Breakfast",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 18212,
+  "title": "Dungeons & Dragons Adventure Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 731,
+  "title": "Escape from New York",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2250,
+  "title": "Midway",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1373,
+  "title": "Midway",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1823,
+  "title": "1829",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4962,
+  "title": "1914",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 621,
+  "title": "25 Words or Less",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3125,
+  "title": "7th Sea",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 9577,
+  "title": "Across Suez",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3608,
+  "title": "Air Force",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 492,
+  "title": "Aladdin's Dragons",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1639,
+  "title": "Archie Bunker's Card Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 22457,
+  "title": "Axis & Allies: Battle of the Bulge",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 7470,
+  "title": "BattleSpace",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 7943,
+  "title": "BattleTroops",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 388413,
+  "title": "Whale to Look",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 65590,
+  "title": "Bumbesi",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 172235,
+  "title": "Schrödinger's Cats",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 8703,
+  "title": "The Ardennes Offensive",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1687,
+  "title": "Red Empire",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 378476,
+  "title": "Mycelia",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1682,
+  "title": "The Challenge",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1987,
+  "title": "Emperor of China",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2031,
+  "title": "Starship Command",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 696,
+  "title": "The Big Idea",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 423,
+  "title": "1856: Railroading in Upper Canada from 1856",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 119506,
+  "title": "Freedom: The Underground Railroad",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 103649,
+  "title": "The City",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1378,
+  "title": "Odysseus",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 466241,
+  "title": "Odysseus",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 103515,
+  "title": "Battles of Westeros: Brotherhood Without Banners",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 93038,
+  "title": "Battles of Westeros: Tribes of the Vale",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 88926,
+  "title": "Battles of Westeros: Lords of the River",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 77849,
+  "title": "Battles of Westeros: Wardens of the North",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 24498,
+  "title": "L'Enclos",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 34303,
+  "title": "Warriors of Mars",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2487,
+  "title": "Why",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3463,
+  "title": "Wizard",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6830,
+  "title": "Zendo",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 62871,
+  "title": "Zombie Dice",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 117871,
+  "title": "Camette",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 42050,
+  "title": "Eurobusiness",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 581,
+  "title": "Tile Chess",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 13229,
+  "title": "Trap",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 51197,
+  "title": "Hippos & Crocodiles",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 992,
+  "title": "Alcazar",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 73091,
+  "title": "Momentum",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 30936,
+  "title": "Oust",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 14662,
+  "title": "NE-spelet",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 119974,
+  "title": "Syzygy",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4668,
+  "title": "Lost Treasure",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 193621,
+  "title": "Joking Hazard",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 136888,
+  "title": "Bruges",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4123,
+  "title": "Gambler",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4230,
+  "title": "Napoleon's Last Battles",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6217,
+  "title": "War of Wizards",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 18144,
+  "title": "Lensman",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3890,
+  "title": "Lightning Strike",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 311988,
+  "title": "Frostpunk: The Board Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 302417,
+  "title": "Mia London",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 224517,
+  "title": "Brass: Birmingham",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3712,
+  "title": "Tac Air",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2903,
+  "title": "The Hunt for Red October",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 5680,
+  "title": "Lee vs. Grant: The Wilderness Campaign of 1864",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 22198,
+  "title": "Great Wall of China",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2354,
+  "title": "Scan",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1645,
+  "title": "War of 1812",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 244608,
+  "title": "Menara",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 10073,
+  "title": "Triumph",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1924,
+  "title": "Maloney's Inheritance",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1681,
+  "title": "Tokyo Express: The Guadalcanal Naval Campaign – 1942",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 7993,
+  "title": "Pole Position",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1249,
+  "title": "Safari Jack",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 13584,
+  "title": "Clan War",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 770,
+  "title": "Loot",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 180602,
+  "title": "Game of Trains",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 202,
+  "title": "Targui",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 29387,
+  "title": "Zombie Fluxx",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1780,
+  "title": "Knights of Camelot",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 65781,
+  "title": "London",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 10394,
+  "title": "Avalanche: The Salerno Landings",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4436,
+  "title": "Cityfight: Modern Combat in the Urban Environment",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 15274,
+  "title": "La Bataille de la Moscowa",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 18158,
+  "title": "Manassas",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 10183,
+  "title": "Napoleon at Leipzig",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 165320,
+  "title": "Afrikan tähti: Retkikunnat",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 2667,
+  "title": "What Were You Thinking?",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4918,
+  "title": "Great War at Sea: U.S. Navy Plan Orange",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 267370,
+  "title": "Cities: Skylines – The Board Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 803,
+  "title": "Dragonhunt",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6735,
+  "title": "Star Explorer",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 122298,
+  "title": "Fungi",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 440540,
+  "title": "Take Time",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6779,
+  "title": "The Ark of the Covenant",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 311193,
+  "title": "Anno 1800",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 413260,
+  "title": "Botanicus",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 393888,
+  "title": "Match!",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 390094,
+  "title": "FTW?!",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 299939,
+  "title": "Doodle Dungeon",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 389102,
+  "title": "Beer Pioneers",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 18162,
+  "title": "Two Towers",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 255984,
+  "title": "Sleeping Gods",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 63706,
+  "title": "11 nimmt!",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 184151,
+  "title": "Legend of the Five Rings: The Card Game",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 14996,
+  "title": "Ticket to Ride: Europe",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 123260,
+  "title": "Suburbia",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 203430,
+  "title": "Fuji Flush",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4195,
+  "title": "War of the Ring: The Game of Middle Earth",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 128996,
+  "title": "1775: Rebellion",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 94246,
+  "title": "1812: The Invasion of Canada",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 13415,
+  "title": "Star Empires",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 19777,
+  "title": "Indonesia",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 3090,
+  "title": "Doctor Who: The Game of Time & Space",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4218,
+  "title": "O Zoo le Mio",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 440,
+  "title": "Zoff in Buffalo",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 182094,
+  "title": "BANG! The Duel",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 99219,
+  "title": "Swish",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4518,
+  "title": "Sauerbaum",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 1380,
+  "title": "Jockey",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 176165,
+  "title": "Dale of Merchants",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 161970,
+  "title": "Alchemists",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 17904,
+  "title": "Wir füttern die kleinen Nilpferde",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 209592,
+  "title": "Trumped Up Cards",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 21295,
+  "title": "Viva Zapata!",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 14902,
+  "title": "Friedland",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 27126,
+  "title": "Strategy on rails",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 12367,
+  "title": "Weapons of Mass Destruction",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4427,
+  "title": "Super Cluedo Challenge",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 6201,
+  "title": "Dante's Inferno",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 22206,
+  "title": "Tieto & Taito & Temppu",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 4861,
+  "title": "Cookie Fu",
+  "wikipediaLanguages": 1
+ },
+ {
+  "bggId": 14353,
+  "title": "Africa",
+  "wikipediaLanguages": 1
+ }
+]

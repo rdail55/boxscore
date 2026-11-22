@@ -1,17 +1,17 @@
 import { useState } from 'react'
 import type { Game } from '../games'
-import { knownPlayers, readPasscode, savePasscode, usePlays } from '../plays'
+import { knownPlayers, type NewPlay, type Play } from '../plays'
 
 const today = () => new Date().toLocaleDateString('en-CA') // yyyy-mm-dd, local time
 
-export default function LogPlay({ game, onClose }: { game: Game; onClose: () => void }) {
-  const { plays, addPlay } = usePlays()
+type Props = { game: Game; plays: Play[]; onSave: (play: NewPlay) => Promise<void>; onClose: () => void }
+
+export default function LogPlay({ game, plays, onSave, onClose }: Props) {
   const [date, setDate] = useState(today)
   const [players, setPlayers] = useState<string[]>([])
   const [winners, setWinners] = useState<string[]>([])
   const [name, setName] = useState('')
   const [notes, setNotes] = useState('')
-  const [passcode, setPasscode] = useState(readPasscode)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -28,7 +28,7 @@ export default function LogPlay({ game, onClose }: { game: Game; onClose: () => 
   }
   const toggleWinner = (n: string) => setWinners(winners.includes(n) ? winners.filter((w) => w !== n) : [...winners, n])
 
-  const canSave = players.length > 0 && winners.length > 0 && passcode && !saving
+  const canSave = players.length > 0 && winners.length > 0 && !saving
 
   async function save(e: React.FormEvent) {
     e.preventDefault()
@@ -36,8 +36,7 @@ export default function LogPlay({ game, onClose }: { game: Game; onClose: () => 
     setSaving(true)
     setError(null)
     try {
-      await addPlay({ date, bggId: game.bggId, game: game.title, players, winners, notes: notes.trim() }, passcode)
-      savePasscode(passcode)
+      await onSave({ date, bggId: game.bggId, players, winners, notes: notes.trim() })
       onClose()
     } catch (err) {
       setError((err as Error).message)
@@ -133,15 +132,6 @@ export default function LogPlay({ game, onClose }: { game: Game; onClose: () => 
           />
         </label>
 
-        <label className="mt-5 block text-xs tracking-wider text-white/40 uppercase">
-          Passcode
-          <input
-            type="password"
-            value={passcode}
-            onChange={(e) => setPasscode(e.target.value)}
-            className="mt-1 block w-full rounded-lg bg-white/5 px-3 py-2 text-base text-white outline-none focus:bg-white/10"
-          />
-        </label>
 
         {error && <p className="mt-4 text-sm text-red-300">{error}</p>}
 

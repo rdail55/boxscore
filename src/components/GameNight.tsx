@@ -1,29 +1,20 @@
 import { useEffect, useRef, useState } from 'react'
-import gameInfo from '../data/game-info.json'
-import { games, type Game } from '../games'
-import Shelf, { Nav, type ShelfProps } from './Shelf'
-
-type Info = {
-  players: { min: number | null; max: number | null }
-  playTime: { min: number | null; max: number | null }
-  weight: number | null
-  mechanics: string[]
-  categories: string[]
-  types: string[]
-}
-const info = gameInfo as unknown as Record<string, Info>
+import { useParams } from 'react-router-dom'
+import { useShelf, type Game, type GameInfo as Info, type Range } from '../games'
+import Shelf, { ShelfTabs, TopBar, type ShelfProps } from './Shelf'
+import { NoShelf } from './ShelfPage'
 
 type Option = { id: string; label: string; hint: string; icon: string; test: (i: Info) => boolean }
 
-const overlaps = (r: { min: number | null; max: number | null }, lo: number, hi: number) => {
-  const min = r.min ?? r.max
-  const max = r.max ?? r.min
+const overlaps = (r: Range | undefined, lo: number, hi: number) => {
+  const min = r?.min ?? r?.max
+  const max = r?.max ?? r?.min
   return min != null && max != null && min <= hi && max >= lo
 }
-const isCoop = (i: Info) => i.mechanics.includes('Cooperative Game')
-const isParty = (i: Info) => i.types.includes('Party Games') || i.categories.includes('Party Game')
+const isCoop = (i: Info) => !!i.mechanics?.includes('Cooperative Game')
+const isParty = (i: Info) => !!(i.types?.includes('Party Games') || i.categories?.includes('Party Game'))
 // A game's typical length: the top of its box range.
-const length = (i: Info) => i.playTime.max ?? i.playTime.min ?? 0
+const length = (i: Info) => i.playTime?.max ?? i.playTime?.min ?? 0
 
 const SECTIONS: { id: string; title: string; options: Option[] }[] = [
   {
@@ -63,10 +54,12 @@ type Picks = Record<string, string | undefined>
 const matches = (g: Game, picks: Picks) =>
   SECTIONS.every((s) => {
     const opt = s.options.find((o) => o.id === picks[s.id])
-    return !opt || (info[g.bggId] && opt.test(info[g.bggId]))
+    return !opt || opt.test(g.info)
   })
 
-export default function GameNight({ pulledId, onPull }: ShelfProps) {
+export default function GameNight({ pulledId, onPull }: Omit<ShelfProps, 'base'>) {
+  const { username } = useParams()
+  const { loading, owner, games } = useShelf(username)
   const [picks, setPicks] = useState<Picks>({})
   const [litId, setLitId] = useState<number>()
   const [choosing, setChoosing] = useState(false)
@@ -74,6 +67,7 @@ export default function GameNight({ pulledId, onPull }: ShelfProps) {
   useEffect(() => () => timers.current.forEach(clearTimeout), [])
 
   const shown = games.filter((g) => matches(g, picks))
+  const base = `/u/${username}`
   const anyPicked = Object.values(picks).some(Boolean)
 
   const toggle = (section: string, option: string) => setPicks((p) => ({ ...p, [section]: p[section] === option ? undefined : option }))
@@ -98,15 +92,18 @@ export default function GameNight({ pulledId, onPull }: ShelfProps) {
         const el = document.querySelector(`[data-spine="${winner.bggId}"]`)
         setLitId(undefined)
         setChoosing(false)
-        if (el) onPull({ game: winner, rect: el.getBoundingClientRect() })
+        if (el) onPull({ game: winner, rect: el.getBoundingClientRect(), to: `${base}/game/${winner.bggId}` })
       }, t + 900),
     )
   }
 
+  if (!owner) return <NoShelf loading={loading} />
+
   return (
     <main className="mx-auto max-w-7xl px-4 py-6">
-      <Nav />
-      <header className="mt-6">
+      <TopBar />
+      <ShelfTabs base={base} name={`${owner.display_name}'s shelf`} />
+      <header className="mt-4">
         <h1 className="text-3xl font-bold">Game Night</h1>
         <p className="text-sm text-white/50">Pick a vibe, a time and a headcount. Skip any you don't care about.</p>
       </header>
@@ -156,7 +153,7 @@ export default function GameNight({ pulledId, onPull }: ShelfProps) {
         </button>
       </div>
 
-      <Shelf games={shown} pulledId={pulledId} litId={litId} onPull={onPull} empty="Nothing on the shelf fits all of that. Try loosening one choice." />
+      <Shelf games={shown} base={base} pulledId={pulledId} litId={litId} onPull={onPull} empty="Nothing on the shelf fits all of that. Try loosening one choice." />
     </main>
   )
 }
