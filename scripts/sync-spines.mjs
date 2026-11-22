@@ -16,9 +16,15 @@ const { VITE_SUPABASE_URL: url, VITE_SUPABASE_KEY: key } = process.env
 if (!url || !key) throw new Error('Set VITE_SUPABASE_URL and VITE_SUPABASE_KEY')
 
 const query = 'select=bgg_id,title,cover_url,spine_crop,spine_crop_at&cover_url=not.is.null&or=(spine_url.is.null,spine_crop.not.is.null)'
-const res = await fetch(`${url}/rest/v1/games?${query}`, { headers: { apikey: key } })
-if (!res.ok) throw new Error(`catalog ${res.status}`)
-const rows = await res.json()
+// The API returns at most 1,000 rows per request, so page through the catalog.
+const rows = []
+for (let from = 0; ; from += 1000) {
+  const res = await fetch(`${url}/rest/v1/games?${query}&order=bgg_id`, { headers: { apikey: key, Range: `${from}-${from + 999}` } })
+  if (!res.ok) throw new Error(`catalog ${res.status}`)
+  const page = await res.json()
+  rows.push(...page)
+  if (page.length < 1000) break
+}
 
 const manifest = JSON.parse(await fs.readFile(MANIFEST, 'utf8').catch(() => '{}'))
 const version = (r) => r.spine_crop_at ?? 'auto'
