@@ -36,6 +36,7 @@ jobs:
 
       - name: Make spines for newly added games
         id: spines
+        continue-on-error: true # a spine problem shouldn't block deploying the site
         run: |
           node scripts/sync-spines.mjs
           if [ -n "$(git status --porcelain public/spines)" ]; then
